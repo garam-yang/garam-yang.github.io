@@ -10,3 +10,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  counts:
+    - title:"SSAFY"
+      use:true
+    - title:"Algorythm Studying"
+      use:true
