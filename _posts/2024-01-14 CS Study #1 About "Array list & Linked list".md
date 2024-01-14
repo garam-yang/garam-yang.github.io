@@ -1,5 +1,6 @@
 ---
-"Array list & Linked list"
+layout: single
+title: "Array list & Linked list"
 ---
 # List는 언제 쓰이는가  
   - 굳이 예시를 들자면, **'일반적으로 사용되는 프로그래밍의 순위'** 등에 쓰일 수 있다.  
