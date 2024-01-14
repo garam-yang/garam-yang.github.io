@@ -25,6 +25,6 @@
   -**Circular Doubly Linked List**: 양방향 통행도 가능하고, tail의 next가 head다.  
 
 
-  #Array List와 Linked List의 비교표  
+  # Array List와 Linked List의 비교표  
 
   
