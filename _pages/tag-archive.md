@@ -1,6 +1,6 @@
 ---
 title: "Tag"
-layouts: tags
+layout: tags
 permalink: /tags/
 author_profile: true
 sidebar_main: true
