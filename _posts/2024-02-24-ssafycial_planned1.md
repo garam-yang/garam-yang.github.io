@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#2 <개발자는 뭐하니> - 금융권 취뽀편!"
+title: "#2 <개발자는 뭐하니?> 금융권 취뽀편!"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: true
