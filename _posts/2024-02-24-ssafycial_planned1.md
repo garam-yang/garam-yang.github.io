@@ -6,7 +6,7 @@ tag: SSAFY
 toc: true
 author_profile: false
 sidebar:
-  nav: "docs"  
+  nav: "counts"
 published: true
 typora-root-url: ../
 ---
