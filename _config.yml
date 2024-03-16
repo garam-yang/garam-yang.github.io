@@ -112,8 +112,8 @@ author:
   # email            : "garamyang67@naver.com"
   links:
     - label: "Email"
-     icon: "fas fa-fw fa-envelope-square"
-     url: "garamyang67@naver.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "garamyang67@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://garam-yang.github.io/"
