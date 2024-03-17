@@ -7,7 +7,7 @@ toc: true
 author_profile: false
 sidebar:
   nav: "counts"
-published: true
+published: false
 typora-root-url: ../
 
 ---
