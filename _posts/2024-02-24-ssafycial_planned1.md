@@ -3,7 +3,7 @@ layout: single
 title: "#2 <개발자는 뭐하니?>_금융권 취뽀편!"
 categories: SSAFYCIAL
 tag: SSAFY
-toc: true
+toc: false
 author_profile: false
 published: true
 typora-root-url: ../
