@@ -3,7 +3,7 @@ layout: single
 title: "#3 <전격 비교!- 자바 vs 파이썬>"
 categories: SSAFYCIAL
 tag: SSAFY
-toc: true
+toc: false
 author_profile: false
 published: true
 typora-root-url: ../
