@@ -3,7 +3,7 @@ layout: single
 title: "#1 비전공자를 위한 SSAFY합격 비법"
 categories: SSAFYCIAL
 tag: SSAFY
-toc: true
+toc: false
 author_profile: false
 published: true
 typora-root-url: ../
