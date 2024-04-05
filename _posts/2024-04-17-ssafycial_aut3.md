@@ -35,8 +35,7 @@ typora-root-url: ../
 다음의 내용은 질의 응답의 내용입니다!
 
 <hr>
-
-### <span style="color:blue; font-size:20px;">QnA.1</span>
+<span style="color:blue; font-size:20px; font-weight:bold;">QnA.1</span>
 
 **이xx 멘티**
 
@@ -54,7 +53,7 @@ typora-root-url: ../
 
 <hr>
 
-<span style="color:blue; font-size:20px;">QnA.2</span>
+<span style="color:blue; font-size:20px; font-weight:bold;">QnA.2</span>
 
 **전xx**
 
@@ -66,7 +65,7 @@ typora-root-url: ../
 
 <hr>
 
-<span style="color:blue; font-size:20px;">QnA.3</span>
+<span style="color:blue; font-size:20px; font-weight:bold;">QnA.3</span>
 
 **하xx 멘티**
 
@@ -78,7 +77,7 @@ typora-root-url: ../
 
 <hr>
 
-<span style="color:blue; font-size:20px;">QnA.4</span>
+<span style="color:blue; font-size:20px; font-weight:bold;">QnA.4</span>
 
 **김xx 멘티**
 
@@ -90,7 +89,7 @@ typora-root-url: ../
 
 <hr>
 
-<span style="color:blue; font-size:20px;">QnA.5</span>
+<span style="color:blue; font-size:20px; font-weight:bold;">QnA.5</span>
 
 **장xx 멘티**
 
