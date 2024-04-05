@@ -7,7 +7,6 @@ toc: true
 author_profile: false
 published: true
 typora-root-url: ../
-
 ---
 
  안녕하세요! 오늘의 포스팅은 SSAFY에서 한 달에 한번 진행되는, 삼성의 현업 개발자 분들과 질의 응답을 할 수 있는 ‘멘토링 프로그램’에 대해 다루어 볼겁니다! 이번 멘토링 프로그램에서 저는 멘티로 참여했고, 멘토님들과 질의 응답하는 과정에서, 개발자로서 취업을 준비하는 저희에게 너무 유익한 정보를 많이 얻어, 해당 내용을 공유하는 시간을 가지고자 합니다! 
@@ -35,6 +34,7 @@ typora-root-url: ../
 다음의 내용은 질의 응답의 내용입니다!
 
 <hr>
+
 <span style="color:blue; font-size:20px; font-weight:bold;">QnA.1</span>
 
 **이xx 멘티**
@@ -103,4 +103,4 @@ typora-root-url: ../
 
 오늘은 이렇게 ‘멘토링 프로그램'에서 진행된 내용을 다루어보았는데, 너무 유익하지 않았나요? SSAFY에서 오.직. 한 달에 한 번 진행되는 ‘멘토링 프로그램'! 이렇듯 현업자 분들의 많은 팁들을 얻을 수 있는 절호의 기회이니, 학우 분들께서도 많은 관심을 가지고 참여해주세요!
 
-<img src="/images/2024-04-17-ssafycial_aut3/6.명함.jpg" alt="6.명함" style="zoom:33%;" />
+<img src="../images/2024-04-17-ssafycial_aut3/6.명함.jpg" alt="6.명함" style="zoom:33%;" />
