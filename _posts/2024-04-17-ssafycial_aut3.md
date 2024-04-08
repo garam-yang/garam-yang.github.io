@@ -5,7 +5,7 @@ categories: SSAFYCIAL
 tag: SSAFY
 toc: true
 author_profile: false
-published: false
+published: true
 typora-root-url: ../
 ---
 
