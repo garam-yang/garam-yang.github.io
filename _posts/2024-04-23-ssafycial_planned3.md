@@ -12,16 +12,16 @@ typora-root-url: ../
 
 ![네이버 백엔드 0 표지](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 0 표지.png)
 
-![네이버 백엔드 1,2](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 1,2.png)
+![네이버 백엔드 1,2](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 1,2-3846479.png)
 
-![네이버 백엔드 3](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 3.png)
+![네이버 백엔드 3](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 3-3846497.png)
 
-![네이버 백엔드 4](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 4.png)
+![네이버 백엔드 4](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 4-3846508.png)
 
-![네이버 백엔드 5](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 5.png)
+![네이버 백엔드 5](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 5-3846515.png)
 
-![네이버 백엔드 6](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 6.png)
+![네이버 백엔드 6](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 6-3846523.png)
 
-![네이버 백엔드 7, 8](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 7, 8.png)
+![네이버 백엔드 7, 8](/images/2024-04-23-ssafycial_planned3/네이버 백엔드 7, 8-3846530.png)
 
 <img src="/images/2024-03-24-ssafycial_planned2/11기_구미_김주현.png" alt="11기_구미_김주현" style="zoom:50%;" />
