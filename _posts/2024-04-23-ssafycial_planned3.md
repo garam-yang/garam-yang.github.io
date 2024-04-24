@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#6 <개발자는 뭐하니?>_대형 IT 서비스 기업 취뽀편!"
+title: "#6 <개발자는 뭐하니?>_대형 IT 서비스 기업_백엔드 취뽀편!"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false
