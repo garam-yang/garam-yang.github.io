@@ -6,7 +6,7 @@ tag: SSAFY
 toc: true
 toc_sticky: true
 author_profile: false
-published: true
+published: false
 typora-root-url: ../
 ---
 
