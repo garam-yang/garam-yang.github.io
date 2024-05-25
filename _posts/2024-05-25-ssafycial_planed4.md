@@ -3,7 +3,7 @@ layout: single
 title: "#8 <개발자는 뭐하니?> 삼성 현업 풀스택 개발자 '루트'멘토님 인터뷰"
 categories: SSAFYCIAL
 tag: SSAFY
-toc: true
+toc: false
 author_profile: false
 published: true
 typora-root-url: ../
