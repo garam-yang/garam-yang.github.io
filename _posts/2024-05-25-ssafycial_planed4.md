@@ -13,9 +13,11 @@ typora-root-url: ../
 
 ---
 
-![5월 표지](/images/2024-05-25-ssafycial_planed4/5월 표지.png)
+![MayPlanned](/images/2024-05-25-ssafycial_planed4/MayPlanned.png)
 
-![삼성 1,2](/images/2024-05-25-ssafycial_planed4/삼성 1,2.png)
+![Root1](/images/2024-05-25-ssafycial_planed4/Root1.png)
+
+
 
 ![삼성 3](/images/2024-05-25-ssafycial_planed4/삼성 3.png)
 
