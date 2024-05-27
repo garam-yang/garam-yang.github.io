@@ -15,14 +15,22 @@ typora-root-url: ../
 
 ![MayPlanned](/images/2024-05-25-ssafycial_planed4/MayPlanned.png)
 
-![Root1](/images/2024-05-25-ssafycial_planed4/Root1.png)
+
+
+![Loot12](/images/2024-05-25-ssafycial_planed4/Loot12.png)
 
 
 
-![삼성 3](/images/2024-05-25-ssafycial_planed4/삼성 3.png)
+![Loot3](/images/2024-05-25-ssafycial_planed4/Loot3.png)
 
-![삼성 4,5,6](/images/2024-05-25-ssafycial_planed4/삼성 4,5,6.png)
 
-![삼성 7, 8](/images/2024-05-25-ssafycial_planed4/삼성 7, 8.png)
+
+![Loot456](/images/2024-05-25-ssafycial_planed4/Loot456.png)
+
+
+
+![Loot78](/images/2024-05-25-ssafycial_planed4/Loot78.png)
+
+
 
 <img src="/images/2024-03-24-ssafycial_planned2/11기_구미_김주현.png" alt="11기_구미_김주현" style="zoom:50%;" />
