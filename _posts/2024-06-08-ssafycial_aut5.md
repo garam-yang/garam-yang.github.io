@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Github Desktop으로 깃허브 블로그 포스팅 해보기!(a.k.a Github Desktop 사용법)"
+title: "#9 Github Desktop으로 깃허브 블로그 포스팅 해보기!(a.k.a Github Desktop 사용법)"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false
