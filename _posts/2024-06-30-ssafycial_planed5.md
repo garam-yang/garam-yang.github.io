@@ -15,7 +15,7 @@ typora-root-url: ../
 
 
 
-![코딩세끼 0](/images/2024-06-30-ssafycial_planed5/코딩세끼 0.png)
+![JunePlaned](/images/2024-06-30-ssafycial_planed5/JunePlaned.png)
 
 ![코딩세끼 1, 2](/images/2024-06-30-ssafycial_planed5/코딩세끼 1, 2.png)
 
