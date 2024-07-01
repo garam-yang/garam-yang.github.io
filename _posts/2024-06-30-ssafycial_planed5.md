@@ -13,7 +13,9 @@ typora-root-url: ../
 
 ---
 
-![코딩세끼 표지](/images/2024-06-30-ssafycial_planed5/코딩세끼 표지.png)
+
+
+![코딩세끼0](/images/2024-06-30-ssafycial_planed5/코딩세끼0.png)
 
 ![코딩세끼 1, 2](/images/2024-06-30-ssafycial_planed5/코딩세끼 1, 2.png)
 
