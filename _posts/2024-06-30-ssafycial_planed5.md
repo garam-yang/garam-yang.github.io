@@ -32,3 +32,6 @@ typora-root-url: ../
 ![코딩세끼10](/images/2024-06-30-ssafycial_planed5/코딩세끼10.png)
 
 <img src="/images/2024-03-24-ssafycial_planned2/11기_구미_김주현.png" alt="11기_구미_김주현" style="zoom:50%;" />
+
+<img src="/images/2024-06-30-ssafycial_planed5/코딩세끼0.png" alt=“코딩세끼 표지”>
+
