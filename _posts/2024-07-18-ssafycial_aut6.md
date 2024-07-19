@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#9 캐나다 개발자가 되기 위한 tip"
+title: "#11 <해외 취업을 위한 꿀팁!> (feat.Kevin)"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false
