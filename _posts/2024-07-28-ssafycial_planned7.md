@@ -14,7 +14,7 @@ typora-root-url: ../
 
 ---
 
-![기획표지](/images/2024-07-28-ssafycial_planned7/기획표지.png)
+<img src="../images/2024-07-28-ssafycial_planned7/기획표지.png" alt="7월 기획표지" />
 
 ![[기획 7월] 묘ㅇ지 1,2,3](/images/2024-07-28-ssafycial_planned7/[기획 7월] 묘ㅇ지 1,2,3.png)
 
