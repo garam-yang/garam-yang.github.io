@@ -13,7 +13,7 @@ typora-root-url: ../
 
 ---
 
-<img src="../images/2024-07-28-ssafycial_planned7/기획표지.png" alt="기획 표지"/>
+![JulyPlanned](/images/2024-07-28-ssafycial_planned7/JulyPlanned.png)
 ![[기획 7월] 묘ㅇ지 1,2,3](/images/2024-07-28-ssafycial_planned7/[기획 7월] 묘ㅇ지 1,2,3.png)
 
 ![[기획 7월] 묘ㅇ지 4,5,6,7](/images/2024-07-28-ssafycial_planned7/[기획 7월] 묘ㅇ지 4,5,6,7.png)
