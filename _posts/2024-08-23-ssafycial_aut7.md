@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#13 <해외 개발자가 되기위해 알아두면 좋을 사이트 추천>"
+title: "#13 해외 개발자가 되기위해 알아두면 좋을 사이트 추천"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false
