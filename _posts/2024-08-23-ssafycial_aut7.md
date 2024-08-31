@@ -30,7 +30,8 @@ typora-root-url: ../
 
 (아래는 실제 스택오버 플로우의 QnA화면입니다.)
 
-![SS 353](/images/2024-08-23-ssafycial_aut7/SS 353.png)
+![SS 353](/images/2024-08-23-ssafycial_aut7/SS 353.png)  
+
 ![SS 354](/images/2024-08-23-ssafycial_aut7/SS 354.png)
 
 ## 3. LinkedIn  
