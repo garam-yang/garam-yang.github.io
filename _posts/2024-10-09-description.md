@@ -12,9 +12,10 @@ typora-root-url: ../
 ---
 
 #  🎨 Arti - 추천을 통한 나만의 미술관 🎨
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/2bcc01d3-9cb7-4f9c-b649-85ccdb85ffbf">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br>
-WALKWALK 링크: https://j11d106.p.ssafy.io/
+Arti 서버 링크: https://j11d106.p.ssafy.io/
+Arti 앱 다운로드 링크:
 
 <br><br><br>
 
@@ -74,7 +75,7 @@ SSAFY 11기 2학기 특화 프로젝트 - Arti
 ## 주요 기술 및 개발 환경
 
 ### 아키텍처 구성도
-![Web App Reference Architecture (9)](https://github.com/DoingHyoDo10/WALKWALK/assets/93258358/f018b5b6-4da4-43ad-af2f-ba2390ef4bb3)
+![Web App Reference Architecture (9)](/uploads/6e615bdc557699487fbcc2b43214a6ed/아키텍쳐.png)
 
 ### **Android**
 
@@ -105,7 +106,7 @@ SSAFY 11기 2학기 특화 프로젝트 - Arti
 - **AR (Augmented Reality):**
   - ARSceneView
 
-Backend
+### Backend
 
 - **Java 17**
 
@@ -212,48 +213,46 @@ Backend
 
 ### UI 디자인
 
-<img width="900" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/78338944/370f483e-93ec-4c93-862e-8e7111204906">
+<img width="900" alt="image" src="/uploads/4437023cf46c730b991e42c17072d585/arti_피그마.png">
 <br><br>
 
 ### ERD
 
-<img width="900" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/78338944/9e624fc0-b08d-4df8-a129-f080fd2327af">
+<img width="900" alt="image" src="/uploads/71c9f98142a1b2cc4af1c2c3791839d0/Arti_ERD.png">
 <br><br>
 
 ## UCC 및 시연영상(gif 업로드 필요)
 
-- UCC - https://youtu.be/01bYtPFIBRs
-- 시연영상 - https://youtu.be/X-z9YPcKuxY
-[![WALK_WALK_VIDEO](https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/523f2025-7d71-4bec-95a8-28a97dee969e)](https://youtu.be/X-z9YPcKuxY)
-
+- UCC - 유튜브 링크
+- 시연영상 - 유튜브 링크 혹은 gif
 <br><br>
 
 ## 주요 서비스 화면(gif 추후 기입 예정)
 
 ### 1. 회원가입
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/71e3f355-cf4b-4a1e-a42c-6d4a72250a15">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
 
 ### 2. 미술관 페이지
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/6d909ae8-cf42-4dc1-b4b7-e78c14225eee">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
 
 ### 3. 검색 및 추천
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/7ce90968-b9f4-4ed5-abbb-d591b9c11a42">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
 
 ### 4. AI 음악 생성
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/af4f7a36-13ee-4ce3-986f-2c2c958fbde9">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
 
 ### 5. AI 작품 생성
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/9767ce86-ac0e-471c-99b4-fcc7161c5a6c">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
 
 ### 6. 구독
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/4499a43f-c90d-4c7c-bb4a-4f9de0fa08d4">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
 
 ### 7. 나만의 포트폴리오
-<img width="350" alt="image" src="https://github.com/DoingHyoDo10/WALKWALK/assets/102154788/c1f1b427-1464-4d66-8d88-c0fcb02cc2d6">
+<img width="350" alt="image" src="/uploads/d38d43c1c034b140a5fe333b4ec41c19/Arti_로고.png">
 <br><br><br>
