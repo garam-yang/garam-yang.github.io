@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#14 <개발자는 뭐하니?> AI 엔지니어링 전문가 '다비'님 인터뷰편"
+title: "#16 <개발자는 뭐하니?> AI 엔지니어링 전문가 '다비'님 인터뷰편"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false

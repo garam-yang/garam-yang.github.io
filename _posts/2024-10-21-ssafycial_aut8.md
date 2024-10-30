@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#15 해외 개발자가 되기위해 알아두면 좋을 사이트 추천"
+title: "#15 프론트 엔드 개발 관련 기술 스택 프리뷰"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false
