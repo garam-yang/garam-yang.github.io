@@ -45,6 +45,8 @@ typora-root-url: ../
 
 ### **4. Jenkins (CI/CD 자동화 도구)**
 
+![jenkins](/images/2024-11-16-ssafycial_aut9/jenkins.png)
+
 - **역할:** Jenkins는 지속적 통합(CI) 및 지속적 배포(CD)를 위한 자동화 도구입니다. 코드가 변경될 때마다 자동으로 빌드, 테스트, 배포까지 자동화할 수 있습니다.
 - **작동 방식:** Jenkins 파이프라인은 GitLab의 코드 변경사항을 감지하여 자동으로 빌드 및 배포 과정을 트리거합니다. Jenkinsfile을 통해 빌드 및 배포 단계가 정의됩니다.
 - **배포 과정에서의 역할:** Jenkins는 GitLab에서 코드를 push하면 Gradle을 사용하여 빌드를 수행하고, Docker 이미지를 생성한 후 이를 AWS EC2 서버에 배포합니다.
