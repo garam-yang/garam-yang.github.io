@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "#20 <개발자는 뭐하니?> 게임 개발자 'J'님 인터뷰편"
+title: "#20 <개발자는 뭐하니?> 클라우드 엔지니어 'J'님 인터뷰편"
 categories: SSAFYCIAL
 tag: SSAFY
 toc: false
