@@ -5,12 +5,12 @@ import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getSortedPostsList } from "../utils/content-utils";
 import { getTagList, getCategoryList } from "@utils/content-utils";
-const sortedPostsList = (await getSortedPostsList()).map(post => ({
-    ...post,
-    data: {
-        ...post.data,
-        category: post.data.category === null ? undefined : post.data.category,
-    },
+const sortedPostsList = (await getSortedPostsList()).map((post) => ({
+	...post,
+	data: {
+		...post.data,
+		category: post.data.category === null ? undefined : post.data.category,
+	},
 }));
 ---
 

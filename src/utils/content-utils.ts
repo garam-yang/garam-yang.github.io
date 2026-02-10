@@ -80,33 +80,33 @@ export type Category = {
 // ...existing code...
 
 export async function getCategoryList(): Promise<Category[]> {
-    const allBlogPosts = await getCollection("posts", ({ data }) => {
-        return import.meta.env.PROD ? data.draft !== true : true;
-    });
-    const count: { [key: string]: number } = {};
+	const allBlogPosts = await getCollection("posts", ({ data }) => {
+		return import.meta.env.PROD ? data.draft !== true : true;
+	});
+	const count: { [key: string]: number } = {};
 
-    for (const post of allBlogPosts) {
-        if (!post.data.category) {
-            const ucKey = i18n(I18nKey.uncategorized);
-            count[ucKey] = (count[ucKey] ?? 0) + 1;
-            continue;
-        }
+	for (const post of allBlogPosts) {
+		if (!post.data.category) {
+			const ucKey = i18n(I18nKey.uncategorized);
+			count[ucKey] = (count[ucKey] ?? 0) + 1;
+			continue;
+		}
 
-        const categoryName =
-            typeof post.data.category === "string"
-                ? post.data.category.trim()
-                : String(post.data.category).trim();
+		const categoryName =
+			typeof post.data.category === "string"
+				? post.data.category.trim()
+				: String(post.data.category).trim();
 
-        count[categoryName] = (count[categoryName] ?? 0) + 1;
-    }
+		count[categoryName] = (count[categoryName] ?? 0) + 1;
+	}
 
-    const lst = Object.keys(count).sort((a, b) => {
-        return a.toLowerCase().localeCompare(b.toLowerCase());
-    });
+	const lst = Object.keys(count).sort((a, b) => {
+		return a.toLowerCase().localeCompare(b.toLowerCase());
+	});
 
-    return lst.map(c => ({
-        name: c,
-        count: count[c],
-        url: getCategoryUrl(c),
-    }));
+	return lst.map((c) => ({
+		name: c,
+		count: count[c],
+		url: getCategoryUrl(c),
+	}));
 }
