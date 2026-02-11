@@ -69,7 +69,11 @@ export const profileConfig: ProfileConfig = {
 		// 	icon: "fa6-brands:steam",
 		// 	url: "https://store.steampowered.com",
 		// },
-
+		{
+			name: "Instagram",
+			icon: "fa6-brands:instagram",
+			url: "https://instagram.com/john_kim5402",
+		},
 		{
 			name: "Email",
 			icon: "material-symbols:mail-outline", // 또는 "fa6-solid:envelope"
