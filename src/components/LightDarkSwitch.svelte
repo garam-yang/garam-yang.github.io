@@ -47,17 +47,21 @@ function toggleScheme() {
 }
 
 function showPanel() {
-	const panel = document.querySelector("#light-dark-panel");
-	panel.classList.remove("float-panel-closed");
+    const panel = document.querySelector("#light-dark-panel");
+    if (panel) {
+        panel.classList.remove("float-panel-closed");
+    }
 }
 
 function hidePanel() {
-	const panel = document.querySelector("#light-dark-panel");
-	panel.classList.add("float-panel-closed");
+    const panel = document.querySelector("#light-dark-panel");
+    if (panel) {
+        panel.classList.add("float-panel-closed");
+    }
 }
 </script>
 
-<svelte:options customElement="light-dark-switch" /> // 이거 추가함!
+<!-- <svelte:options customElement="light-dark-switch" /> // 이거 추가함! -->
 
 <!-- z-50 make the panel higher than other float panels -->
 <div class="relative z-50" role="menu" tabindex="-1" onmouseleave={hidePanel}>

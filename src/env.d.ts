@@ -3,11 +3,11 @@
 /// <reference types="@astrojs/svelte" />
 
 declare namespace astroHTML.JSX {
-	interface HTMLAttributes {
-		"client:load"?: boolean;
-		"client:idle"?: boolean;
-		"client:visible"?: boolean;
-		"client:media"?: string;
-		"client:only"?: string;
-	}
+  interface IntrinsicAttributes {
+    'client:load'?: boolean;
+    'client:idle'?: boolean;
+    'client:visible'?: boolean;
+    'client:only'?: string;
+    'client:media'?: string;
+  }
 }
