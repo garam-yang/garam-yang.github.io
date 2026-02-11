@@ -150,3 +150,7 @@
     }
   }
 }
+:root {
+  --banner-height-home: 40vh;  /* 홈 */
+  --banner-height: 25vh;       /* 글 페이지 */
+}
