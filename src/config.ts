@@ -80,6 +80,11 @@ export const profileConfig: ProfileConfig = {
 			url: "mailto:garamyang67@naver.com",
 		},
 		{
+			name: "SoundCloud",
+			icon: "fa6-brands:soundcloud",
+			url: "https://soundcloud.com/garamyang",
+		},
+		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/garam-yang",
