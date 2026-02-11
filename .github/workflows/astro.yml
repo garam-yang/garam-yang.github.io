@@ -64,11 +64,24 @@ jobs:
           pnpm exec astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
-
+      # ✅ 여기 추가 (검색 인덱스 생성)
+      - name: Generate Pagefind index
+        working-directory: ${{ env.BUILD_PATH }}
+        run: pnpm dlx pagefind --site dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ env.BUILD_PATH }}/dist
+          
+      - name: Verify dist contains pagefind
+        working-directory: ${{ env.BUILD_PATH }}
+        run: |
+          echo "=== dist ==="
+          ls -la dist
+          echo "=== dist/pagefind ==="
+          ls -la dist/pagefind || true
+          echo "=== find pagefind.js ==="
+          find dist -maxdepth 3 -type f -name "pagefind.js" -print || true
 
   deploy:
     name: Deploy
