@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "."   # Astro 프로젝트가 루트면 그대로, 하위폴더면 변경
+  BUILD_PATH: "." # 하위폴더면 폴더명으로 바꿔라 (예: "site")
 
 jobs:
   build:
@@ -26,85 +26,45 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # ================================
-      # 1️⃣ 어떤 패키지 매니저 쓰는지 감지
-      # ================================
-      - name: Detect package manager
-        id: detect
-        run: |
-          if [ -f "${{ github.workspace }}/${{ env.BUILD_PATH }}/pnpm-lock.yaml" ]; then
-            echo "manager=pnpm" >> $GITHUB_OUTPUT
-            echo "command=install --frozen-lockfile" >> $GITHUB_OUTPUT
-            echo "runner=pnpm exec" >> $GITHUB_OUTPUT
-            echo "lockfile=pnpm-lock.yaml" >> $GITHUB_OUTPUT
-          elif [ -f "${{ github.workspace }}/${{ env.BUILD_PATH }}/yarn.lock" ]; then
-            echo "manager=yarn" >> $GITHUB_OUTPUT
-            echo "command=install" >> $GITHUB_OUTPUT
-            echo "runner=yarn" >> $GITHUB_OUTPUT
-            echo "lockfile=yarn.lock" >> $GITHUB_OUTPUT
-          elif [ -f "${{ github.workspace }}/${{ env.BUILD_PATH }}/package-lock.json" ]; then
-            echo "manager=npm" >> $GITHUB_OUTPUT
-            echo "command=ci" >> $GITHUB_OUTPUT
-            echo "runner=npx --no-install" >> $GITHUB_OUTPUT
-            echo "lockfile=package-lock.json" >> $GITHUB_OUTPUT
-          else
-            echo "manager=npm" >> $GITHUB_OUTPUT
-            echo "command=install" >> $GITHUB_OUTPUT
-            echo "runner=npx --no-install" >> $GITHUB_OUTPUT
-            echo "lockfile=" >> $GITHUB_OUTPUT
-          fi
-
-      # ================================
-      # 2️⃣ Node 설치 (캐시 없이)
-      # ================================
+      # 1) Node 설치 (캐시 없이)
       - name: Setup Node (no cache)
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      # ================================
-      # 3️⃣ pnpm 설치
-      # ================================
-      - name: Setup pnpm
-        if: ${{ steps.detect.outputs.manager == 'pnpm' }}
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      # 2) pnpm 버전은 package.json의 "packageManager"를 기준으로 Corepack으로 활성화
+      - name: Enable pnpm via Corepack (from packageManager)
+        working-directory: ${{ env.BUILD_PATH }}
+        run: |
+          corepack enable
+          PM=$(node -p "require('./package.json').packageManager")
+          echo "packageManager=$PM"
+          corepack prepare "$PM" --activate
+          pnpm --version
 
-      # ================================
-      # 4️⃣ Node 다시 실행 → 이번엔 캐시 활성화
-      # ================================
-      - name: Setup Node (with cache)
+      # 3) pnpm이 활성화된 뒤에 pnpm 캐시 켜기
+      - name: Setup Node (with pnpm cache)
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: ${{ steps.detect.outputs.manager }}
-          cache-dependency-path: ${{ env.BUILD_PATH }}/${{ steps.detect.outputs.lockfile }}
+          cache: "pnpm"
+          cache-dependency-path: ${{ env.BUILD_PATH }}/pnpm-lock.yaml
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      # ================================
-      # 5️⃣ 의존성 설치
-      # ================================
       - name: Install dependencies
-        run: ${{ steps.detect.outputs.manager }} ${{ steps.detect.outputs.command }}
         working-directory: ${{ env.BUILD_PATH }}
+        run: pnpm install --frozen-lockfile
 
-      # ================================
-      # 6️⃣ 빌드
-      # ================================
       - name: Build with Astro
+        working-directory: ${{ env.BUILD_PATH }}
         run: |
-          ${{ steps.detect.outputs.runner }} astro build \
+          pnpm exec astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
-        working-directory: ${{ env.BUILD_PATH }}
 
-      # ================================
-      # 7️⃣ Pages 업로드
-      # ================================
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
