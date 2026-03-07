@@ -31,11 +31,11 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+		{
+		  src: '/favicon/lotus-32.png',    // Path of the favicon, relative to the /public directory
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		  sizes: '192x192',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		}
 	],
 };
 
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Garam Yang",
-	bio: "Just a person who enjoys trying many things and learning along the way.",
+	bio: "엄...",
 	links: [
 		// {
 		// 	name: "Twitter",
@@ -69,11 +69,11 @@ export const profileConfig: ProfileConfig = {
 		// 	icon: "fa6-brands:steam",
 		// 	url: "https://store.steampowered.com",
 		// },
-		{
-			name: "Instagram",
-			icon: "fa6-brands:instagram",
-			url: "https://instagram.com/john_kim5402",
-		},
+		// {
+		// 	name: "Instagram",
+		// 	icon: "fa6-brands:instagram",
+		// 	url: "https://instagram.com/john_kim5402",
+		// },
 		{
 			name: "Email",
 			icon: "material-symbols:mail-outline", // 또는 "fa6-solid:envelope"

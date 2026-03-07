@@ -1,5 +1,7 @@
 # About
-Hi, I'm Juhyeon Kim, from South Korea.
+Please don’t break… no bugs, please.
+![me](/src/assets/images/pray.png)
+<!-- Hi, I'm Juhyeon Kim, from South Korea.
 I’m training to become a pilot while building projects at the intersection of aviation and software engineering, recently exploring ideas that combine flight training communities with data platforms similar to CloudAhoy.
 
 Before focusing on aviation, I spent a year studying software development through a program at Samsung, where I built a foundation in engineering.
@@ -10,7 +12,7 @@ I used to be part of a Taekwondo demonstration team until a knee injury changed 
 
 My nickname, Garam Yang, “Yang” comes from my mother’s family name. In Korea, women keep their surnames after marriage, and “Garam” is an old Korean word meaning temple or river. I’ve always appreciated Buddhist philosophy, which is why you’ll see a lotus in my banner.
 
-I started this blog to document what I learn, help people across different fields, and hopefully inspire someone along the way.
+I started this blog to document what I learn, help people across different fields, and hopefully inspire someone along the way. -->
 <!-- This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
 ::github{repo="saicaca/fuwari"}
