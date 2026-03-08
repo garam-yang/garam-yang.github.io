@@ -1,6 +1,6 @@
 # About
 Please don’t break… no bugs, please.
-![pray](/src/assets/images/pray.png)
+<!-- ![pray](/src/assets/images/pray.png) -->
 <!-- Hi, I'm Juhyeon Kim, from South Korea.
 I’m training to become a pilot while building projects at the intersection of aviation and software engineering, recently exploring ideas that combine flight training communities with data platforms similar to CloudAhoy.
 
