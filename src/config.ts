@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Garam Yang's Devlog",
+	title: "Devlog",
 	subtitle: "Demo Site",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -44,18 +44,18 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/garam-yang", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
+		// {
+		// 	name: "GitHub",
+		// 	url: "https://github.com/garam-yang", // Internal links should not include the base path, as it is automatically added
+		// 	external: true, // Show an external link icon and will open in a new tab
+		// },
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Garam Yang",
-	bio: "엄...",
+	name: "!",
+	bio: "I am currently developing an app and need flight data for development and testing.I can lend you a Sentry Plus device in exchange for helping collect flight data during your flights. If you are interested, please contact me via email.",
 	links: [
 		// {
 		// 	name: "Twitter",
@@ -79,16 +79,16 @@ export const profileConfig: ProfileConfig = {
 			icon: "material-symbols:mail-outline", // 또는 "fa6-solid:envelope"
 			url: "mailto:garamyang67@naver.com",
 		},
-		{
-			name: "SoundCloud",
-			icon: "fa6-brands:soundcloud",
-			url: "https://soundcloud.com/garamyang",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/garam-yang",
-		},
+		// {
+		// 	name: "SoundCloud",
+		// 	icon: "fa6-brands:soundcloud",
+		// 	url: "https://soundcloud.com/garamyang",
+		// },
+		// {
+		// 	name: "GitHub",
+		// 	icon: "fa6-brands:github",
+		// 	url: "https://github.com/garam-yang",
+		// },
 	],
 };
 

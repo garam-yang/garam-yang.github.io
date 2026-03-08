@@ -2,7 +2,7 @@
 title: PPL Oral Study Note
 published: 2026-03-06
 description: Study notes from my PPL checkride oral preparation
-tags: [aviation, ppl, checkride, faa, flight training]
+tags: [Aviation, PPL, Oral]
 category: Aviation
 draft: false
 ---
@@ -13,14 +13,17 @@ https://courses.sportys.com/training/portal/demo/course/PRIVATE/testprep/faa-tes
 
 
 Use this site to check your FAA written test codes (ACS codes). 
+
 → 이 사이트를 통해 Written 시험 코드(ACS 코드)를 확인할 수 있다.
 
 
-You can also roughly identify the correct answers or topics that need further review. 
+You can also roughly identify the correct answers or topics that need further review.
+
 → 대략적인 정답 방향이나 복습해야 할 주제도 확인할 수 있다.
 
 
 It can also be used together with the Checkride Study Guide. 
+
 → Checkride Study Guide와 함께 활용하면 좋다.
 
 
@@ -956,17 +959,6 @@ The common mnemonic for magnetic compass errors is **DVMONA**.
 ---
 
 
-# Unusual Attitude Recovery
-
-
-**ACS Reference**
-
-
-PA.VIII.E.K2 – Procedures for recovery from unusual attitudes in flight 
-Area of Operation VIII – Basic Instrument Maneuvers 
-Task E – Recovery from Unusual Flight Attitudes
-
-
 # Unusual Attitudes
 
 
@@ -1181,6 +1173,7 @@ A landing light is required **only if the aircraft is operated for hire.**
 
 → 착륙등은 **유상 운송 항공기일 경우에만 필수**이다.
 
+Ref § 91.205 (c) (4) If the aircraft is operated for hire, one electric landing light.
 
 ---
 
@@ -1939,8 +1932,6 @@ Examples:
 
 
 - Windshield defrost
-- Pneumatic boots
-
 
 ### Anti-icing
 
@@ -2506,6 +2497,7 @@ An aft CG usually **improves aerodynamic efficiency**, which reduces drag slight
 → 뒤쪽 CG는 **공기역학적 효율을 높여 항력을 줄이고 
 연료 효율을 약간 개선할 수 있다.**
 
+---
 
 # Aircraft Electrical System
 
@@ -2817,6 +2809,7 @@ The engine will continue running because it uses magnetos, which generate their 
 Since magnetos operate independently of the aircraft electrical system, the engine can continue running even if the alternator fails and the battery is depleted.  
 → magneto는 항공기의 전기 시스템과 독립적으로 작동하기 때문에 알터네이터가 고장 나고 배터리가 방전되어도 엔진은 계속 작동할 수 있다.
 
+---
 
 ## Fuel System
 
@@ -2861,6 +2854,7 @@ Finally, fuel enters the **carburetor**, where it mixes with air and is delivere
 
 Water contamination can be detected by draining fuel from the **fuel sump** using a fuel sampler and visually inspecting the fuel.
 
+---
 
 ## Hypoxia
 
@@ -3096,7 +3090,71 @@ A. A common situation is **overshooting the base-to-final turn** and applying ex
 
 
 ---
+### Q. What are hazardous attitudes?
 
+Hazardous attitudes란 무엇인가?
+
+A. Hazardous attitudes are dangerous ways of thinking that can negatively affect pilot judgment and decision-making.
+
+Hazardous attitudes는 조종사의 판단과 의사결정에 부정적인 영향을 줄 수 있는 위험한 사고방식이다.
+
+###  Q. What are the five hazardous attitudes?
+
+5가지 Hazardous attitudes는 무엇인가?
+
+A. The five hazardous attitudes are:
+
+Hazardous attitudes의 5가지 유형은 다음과 같다.
+
+Anti-authority — “Don’t tell me.”
+
+→ 반권위적 태도 — “나에게 이래라저래라 하지 마.”
+
+Impulsivity — “Do it quickly.”
+
+→ 충동성 — “빨리 해버리자.”
+
+Invulnerability — “It won’t happen to me.”
+
+→ 불사신 심리 — “나에게는 그런 일이 일어나지 않을 거야.”
+
+Macho — “I can do it.”
+
+→ 과시적 태도 — “내가 해낼 수 있어.”
+
+Resignation — “What’s the use?”
+
+→ 체념 — “어차피 소용없어.”
+
+### Q. What are the remedies for hazardous attitudes?
+
+Hazardous attitudes의 교정 방법(remedies)은 무엇인가?
+
+A. Each hazardous attitude has a recommended corrective action.
+
+각 Hazardous attitude에는 교정 방법이 있다.
+
+Anti-authority → Follow the rules. They are usually right.
+
+→ 규칙을 따르자. 대부분 이유가 있다.
+
+Impulsivity → Not so fast. Think first.
+
+→ 서두르지 말고 먼저 생각하자.
+
+Invulnerability → It could happen to me.
+
+→ 나에게도 일어날 수 있다.
+
+Macho → Taking chances is foolish.
+
+→ 무모한 도전은 어리석다.
+
+Resignation → I’m not helpless. I can make a difference.
+
+→ 나는 무력하지 않다. 상황을 바꿀 수 있다.\
+
+---
 
 # Night Flying Physiology
 
